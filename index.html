@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Car Garage</h1>
+    </header>
+    <section id="selectionForm">
+        <form id="carForm">
+            <label>car name</label>
+            <br>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+            <label>category model</label>
+            <br>
+            <select id="category">
+                <option value="BMW">BMW</option>
+                <option value="lexus">lexus</option>
+                <option value="toyota">toyota</option>
+                <option value="kia">kia</option>
+                <option value="chevorlat">chevorlat</option>
+                <option value="tesla">tesla</option>
+            </select>
+            <br>
+            <br>
+            <label>model year</label>
+            <br>
+            <select id="year">
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+            </select>
+            <br>
+            <br>
+
+            <input type="submit"  id="submit-bottom">
+        </form>
+    </section>
+
+    <ul id="carLI"></ul>
+    <img id="carImg">
+</body>
+
+<script src="app.js"></script>
+
+</html>

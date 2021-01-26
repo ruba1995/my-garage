@@ -1,0 +1,46 @@
+body{
+    background-image:url(../images/background.jpg) ;
+}
+
+h1{
+    background-color: #4a4a4a;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: xxx-large;
+    
+}
+
+Form{
+    display: inline-block;
+    background-color:#a3a3a3 ;
+    margin-left: 90px;
+    margin-top: 50px;
+    font-size: xx-large;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#name{
+    width:200px;
+    height: 30px;
+}
+
+#category{
+    width:200px;
+    height: 30px;
+}
+
+#submit-bottom{
+    width:200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+#year{
+    width:200px;
+    height: 30px; 
+}
