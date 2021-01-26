@@ -7,6 +7,7 @@ var formArray=["car name", "category model", "model year"]
 var carForm=document.getElementById("carForm");
 var carList=document.getElementById("carLI")
 var tableArray=[];
+var image=document.getElementById("carImg")
 
 // functions 
 function carGarageForm(carName , categoryModel ,modelYear ,image){
@@ -38,9 +39,9 @@ carGarageForm.prototype.carGarage=function(){
     tableUL.appendChild(tablecategoryModel);
     tableUL.appendChild(tablemodelYear);
 
+    carList.appendChild(tableUL);
 }
 
-carList.appendChild(tableUL);
 
 function handelForm(){
    event.preventDefault();
@@ -49,7 +50,7 @@ function handelForm(){
    var modelyear=event.target.modelyear.value ;
    var image=event.target.image.value 
 }
-new carGarageForm (carName , categoryModel ,modelYear ,image); 
+new carGarageForm ('carName' , 'categoryModel' ,'modelYear' ,'image'); 
 
 localStorage.setItem('tablegarage',JSON.stringify(tableArray));
 

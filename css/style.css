@@ -17,10 +17,7 @@ Form{
     margin-left: 90px;
     margin-top: 50px;
     font-size: xx-large;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding :60px;
 }
 
 #name{
